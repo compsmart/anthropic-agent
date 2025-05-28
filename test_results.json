@@ -1,0 +1,168 @@
+{
+  "web_search": {
+    "passed": 4,
+    "failed": 0,
+    "tests": [
+      {
+        "query": "What is artificial intelligence?",
+        "result": "PASSED",
+        "response": "Based on the search results, artificial intelligence (AI) refers to the ability of computer systems "
+      },
+      {
+        "query": "weather today",
+        "result": "PASSED",
+        "response": "I apologize, but I notice that without a specific location, I can't provide accurate weather informa"
+      },
+      {
+        "query": "latest news about Python programming",
+        "result": "PASSED",
+        "response": "I apologize, but I'm experiencing some technical difficulties with the web search function at the mo"
+      },
+      {
+        "query": "compsmart.co.uk website information",
+        "result": "PASSED",
+        "response": "I apologize, but I'm experiencing some technical difficulties with the web search function at the mo"
+      }
+    ]
+  },
+  "file_operations": {
+    "passed": 4,
+    "failed": 0,
+    "tests": [
+      {
+        "test": "Write file",
+        "result": "PASSED",
+        "response": "The content has been successfully written to the specified file. Would you like me to verify the con"
+      },
+      {
+        "test": "Read file",
+        "result": "PASSED",
+        "response": "The file contains exactly what was written to it:\n1. \"This is a test file for the AGI agent.\"\n2. \"Li"
+      },
+      {
+        "test": "Analyze file",
+        "result": "PASSED",
+        "response": "Based on the analysis:\n1. The file size is 64 bytes\n2. The file was last modified on 2025-05-28 at 1"
+      },
+      {
+        "test": "List directory",
+        "result": "PASSED",
+        "response": "The directory contains one file:\n- test_file.txt\n\nWould you like me to perform any operations on thi"
+      }
+    ]
+  },
+  "code_execution": {
+    "passed": 0,
+    "failed": 5,
+    "tests": [
+      {
+        "test": "Simple calculation",
+        "result": "FAILED",
+        "response": "I apologize for the technical error in executing the code. While the code itself is a simple arithme"
+      },
+      {
+        "test": "Variable assignment",
+        "result": "FAILED",
+        "response": "I apologize for the technical error in executing the code. While the code itself is valid Python tha"
+      },
+      {
+        "test": "List operations",
+        "result": "FAILED",
+        "response": "I apologize for the technical error in executing the code. While the code itself is valid Python tha"
+      },
+      {
+        "test": "Date/time",
+        "result": "FAILED",
+        "response": "I apologize for the technical error in executing the code. While the code itself is valid Python tha"
+      },
+      {
+        "test": "Error handling",
+        "result": "FAILED",
+        "response": "I apologize for the technical error in executing the code. The code you provided would normally:\n1. "
+      }
+    ]
+  },
+  "knowledge_management": {
+    "passed": 0,
+    "failed": 4,
+    "tests": [
+      {
+        "test": "Add knowledge",
+        "result": "FAILED",
+        "response": "I apologize, but it seems there was an error while trying to add this information to the knowledge b"
+      },
+      {
+        "test": "Add categorized knowledge",
+        "result": "FAILED",
+        "response": "I apologize, but it seems there was an error while trying to add this information to the knowledge b"
+      },
+      {
+        "test": "Search knowledge",
+        "result": "FAILED",
+        "response": "I apologize, but it seems there was an error while trying to search the knowledge base. This could b"
+      },
+      {
+        "test": "Search color knowledge",
+        "result": "FAILED",
+        "response": "I apologize, but it seems there was an error while trying to search the knowledge base for informati"
+      }
+    ]
+  },
+  "system_interaction": {
+    "passed": 5,
+    "failed": 0,
+    "tests": [
+      {
+        "test": "Current directory",
+        "result": "PASSED",
+        "response": "I apologize, let me try the Windows equivalent command:"
+      },
+      {
+        "test": "List files",
+        "result": "PASSED",
+        "response": "The current directory appears to be a Python project directory containing various Python files, conf"
+      },
+      {
+        "test": "System date",
+        "result": "PASSED",
+        "response": "I apologize, but I'm having trouble retrieving the system date. This could be due to:\n\n1. System com"
+      },
+      {
+        "test": "Whoami",
+        "result": "PASSED",
+        "response": "The command shows that you are logged in as user \"brad\" on the computer \"desktop-mbgtfpa\". Would you"
+      },
+      {
+        "test": "Echo test",
+        "result": "PASSED",
+        "response": "The command successfully output \"Hello from AGI agent\". Would you like to run any other commands?"
+      }
+    ]
+  },
+  "memory_recall": {
+    "passed": 4,
+    "failed": 0,
+    "tests": [
+      {
+        "test": "Recall name",
+        "result": "PASSED",
+        "response": "Based on our earlier conversation, I know your name is Brad. You mentioned this when you said \"My na"
+      },
+      {
+        "test": "Recall location",
+        "result": "PASSED",
+        "response": "Based on our earlier conversation, you live in the UK. You mentioned this when you said \"I live in t"
+      },
+      {
+        "test": "Recall work",
+        "result": "PASSED",
+        "response": "Based on our earlier conversation, you work with computers. You mentioned this when you said \"I live"
+      },
+      {
+        "test": "General recall",
+        "result": "PASSED",
+        "response": "While the memory recall function isn't working properly, from our current conversation context I can"
+      }
+    ]
+  }
+}
