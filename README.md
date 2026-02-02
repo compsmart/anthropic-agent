@@ -1,6 +1,6 @@
 # Anthropic AGI Agent
 
-A comprehensive AI agent leveraging the latest Anthropic API features including Claude models, tool use, file handling, and advanced reasoning capabilities.
+An experimental AI agent leveraging the latest Anthropic API features including Claude models, tool use, file handling, and advanced reasoning capabilities. For learning and research only.
 
 ## Project Overview
 
